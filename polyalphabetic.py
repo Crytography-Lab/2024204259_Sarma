@@ -33,7 +33,7 @@ def decrypt(text, key):
 text = input("Enter message: ")
 key = input("Enter key: ")
 
-encrypted = encrypt(text, key)
-print("Encrypted:", encrypted)
+encrypt = encrypt(text, key)
+print("Encrypted:", encrypt)
 
-print("Decrypted:", decrypt(encrypted, key))
+print("Decrypted:", decrypt(encrypt, key))
